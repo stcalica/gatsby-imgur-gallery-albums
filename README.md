@@ -6,4 +6,4 @@ and add to options your client id and album hashes as an array
 ```options: {
   clientId: "XXXXXX",
   albumHashes: [],
-}````
+}```
