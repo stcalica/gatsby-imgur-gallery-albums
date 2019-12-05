@@ -1,14 +1,21 @@
 {
-  "name": "imgur-source",
-  "version": "1.0.0",
-  "description": "",
+  "name": "gatsby-source-imgur-gallery-albums",
+  "version": "0.1.0",
+  "description": "Source data from Imgur Gallery Albums",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gatsby build"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Kyle Calica",
+  "license": "",
   "dependencies": {
     "node-fetch": "^2.6.0"
-  }
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-source",
+    "gatsby-source-plugin",
+    "gatsby-plugin",
+    "imgur"
+  ]
 }
