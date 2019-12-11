@@ -1,11 +1,10 @@
 {
   "name": "gatsby-source-imgur-gallery-albums",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Source data from Imgur Gallery Albums",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist --ignore **/__tests__ && cp README.md dist && cp package.json dist",
-    "prepare": "cross-env NODE_ENV=production npm run build",
     "watch": "babel -w src --out-dir . --ignore **/__tests__"
   },
   "author": "Kyle Calica",
@@ -19,13 +18,13 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "cross-env": "^6.0.3",
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.5",
     "@babel/core": "^7.7.5",
-    "babel-preset-gatsby-package": "^0.2.14",
-    "cross-env": "^5.2.1"
+    "babel-preset-gatsby-package": "^0.2.14"
   },
   "keywords": [
     "gatsby",
