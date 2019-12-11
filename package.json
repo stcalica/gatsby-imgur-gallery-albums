@@ -18,10 +18,10 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
-    "cross-env": "^6.0.3",
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
+    "cross-env": "^6.0.3",
     "@babel/cli": "^7.7.5",
     "@babel/core": "^7.7.5",
     "babel-preset-gatsby-package": "^0.2.14"
