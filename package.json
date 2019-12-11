@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-imgur-gallery-albums",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Source data from Imgur Gallery Albums",
   "main": "dist/index.js",
   "scripts": {

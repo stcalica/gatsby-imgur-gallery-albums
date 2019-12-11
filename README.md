@@ -9,5 +9,4 @@ options: {
   clientId: "XXXXXX",
   albumHashes: [],
 }
-
 ```
