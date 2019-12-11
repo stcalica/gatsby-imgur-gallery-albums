@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist --ignore **/__tests__ && cp README.md dist && cp package.json dist",
-    "watch": "babel -w src --out-dir . --ignore **/__tests__"
+    "watch": "babel -w src --out-dir . --ignore **/__tests__",
+    "prepublish": "babel src --out-dir dist --ignore **/__tests__ && cp README.md dist && cp package.json dist"
   },
   "author": "Kyle Calica",
   "license": "",
